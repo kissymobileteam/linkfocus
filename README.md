@@ -1,4 +1,11 @@
-linkfocus
-=========
+## linkfocus
 
-统一各平台超链接反馈样式
+* 版本：1.0
+* 教程：[http://gallery.kissyui.com/linkfocus/1.0/guide/index.html](http://gallery.kissyui.com/linkfocus/1.0/guide/index.html)
+* demo：[http://gallery.kissyui.com/linkfocus/1.0/demo/index.html](http://gallery.kissyui.com/linkfocus/1.0/demo/index.html)
+
+## changelog
+
+### V1.0
+
+
