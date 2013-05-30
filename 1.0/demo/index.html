@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>linkfocus测试</title>
+    <script src="http://a.tbcdn.cn/s/kissy/1.3.0/kissy.js" charset="utf-8"></script>
+</head>
+<body>
+<h2>linkfocus</h2>
+
+<a href="#">超链接</a>
+
+<script>
+    var S = KISSY;
+    if (S.Config.debug) {
+        var srcPath = "../../../";
+        S.config({
+            packages:[
+                {
+                    name:"gallery",
+                    path:srcPath,
+                    charset:"utf-8",
+                    ignorePackageNameInUri:true
+                }
+            ]
+        });
+    }
+
+    S.use('gallery/linkfocus/1.0/index', function (S, Linkfocus) {
+         var linkfocus = new Linkfocus();
+         linkfocus.init('a');
+    })
+</script>
+</body>
+</html>
